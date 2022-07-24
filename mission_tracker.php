@@ -23,9 +23,36 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Entreprises</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Entreprise1</a></li>
-              <li><a class="dropdown-item" href="#">Entreprise2</a></li>
-              <li><a class="dropdown-item" href="#">Entreprise3</a></li>
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="images/entreprise_mini_icon.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0"><b>Entreprise1</b></h6>
+                    <p class="mb-0 opacity-75">Desc</p>
+                  </div>
+                  <small class="opacity-50 text-nowrap"></small>
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="images/entreprise_mini_icon.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0"><b>Entreprise2</b></h6>
+                    <p class="mb-0 opacity-75">Desc</p>
+                  </div>
+                  <small class="opacity-50 text-nowrap"></small>
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="images/entreprise_mini_icon.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0"><b>Entreprise3</b></h6>
+                    <p class="mb-0 opacity-75">Desc</p>
+                  </div>
+                  <small class="opacity-50 text-nowrap"></small>
+                </div>
+              </a>
             </ul>
           </li>
           <li class="nav-item">
@@ -37,38 +64,3 @@
       </div>
     </div>
   </nav>
-
-   <!-- List - Entreprise -->
-
-  <div class="list-group w-auto">
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="images/entreprise_mini_icon.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-      <div>
-        <h6 class="mb-0">Entreprise1</h6>
-        <p class="mb-0 opacity-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <small class="opacity-50 text-nowrap"></small>
-    </div>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="images/entreprise_mini_icon.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-      <div>
-        <h6 class="mb-0">Entreprise2</h6>
-        <p class="mb-0 opacity-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <small class="opacity-50 text-nowrap"></small>
-    </div>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-    <img src="images/entreprise_mini_icon.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
-    <div class="d-flex gap-2 w-100 justify-content-between">
-      <div>
-        <h6 class="mb-0 text-nowrap">Entreprise3</h6>
-        <p class="mb-0 opacity-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <small class="opacity-50 text-nowrap"></small>
-    </div>
-  </a>
-</div>
