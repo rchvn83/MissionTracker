@@ -1,2 +1,2 @@
 # MissionTracker
-MissionTracker (Imported from Deb11)
+MissionTracker (imported from Deb11)
